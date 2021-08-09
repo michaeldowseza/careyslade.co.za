@@ -1,2 +1,3 @@
 # careyslade.co.za
-Vanilla HTML5/JS/CSS website
+
+React based website deployed to Netlify.
