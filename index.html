@@ -26,6 +26,7 @@
     <link rel="preload" href="/img/background-4.jpg" as="image" />
     <link rel="preload" href="/img/background-5.jpg" as="image" />
 
+    <script src="https://www.google.com/recaptcha/api.js"></script>
     <script src="https://kit.fontawesome.com/76287e210d.js" crossorigin="anonymous"></script>
   </head>
 
@@ -53,7 +54,15 @@
           <input id="name" placeholder="Name" name="entry.1358084674" />
           <input id="email" placeholder="Email" name="entry.2083827855" />
           <textarea id="message" placeholder="Message" name="entry.371683579"></textarea>
-          <button type="submit" class="btn-primary">Send</button>
+          <button
+            type="button"
+            class="btn-primary g-recaptcha"
+            data-sitekey="6LfO3h4dAAAAAHSSwputOM47R3qaE-2Q0kMORsYL"
+            data-callback="onSubmit"
+            data-action="submit"
+          >
+            Send
+          </button>
         </form>
       </section>
       <footer>
